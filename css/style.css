@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utils */
+
+.minh-40px{
+    min-height: 40px;
+}
+.maxh-20px{
+    max-height: 20px;
+}
+.margin-left30px{
+    margin-left:30px ;
+}
+.margin-0-30px{
+    margin: 0 30px;
+}
+.margin-10px{
+    margin: 10px;
+}
+/* Generics */
+a{
+    text-decoration: none;
+}
+.a-btn{
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+/* colors */
+.white{
+    color: white;
+}
+.lightgrey{
+    color: rgb(247,247,247);
+}
+.lightblack{
+    color: rgb(162,162,162);
+}
+.black{
+    color: black;
+}
+.bg-black{
+    background-color: black;
+}
+/* font size */
+.f-size20px{
+    font-size: 30px;
+}
+
+/* -------------HEADER---------- */
+
+.hamburger-icon-menu{
+    display: flex;
+    border: 1px solid rgb(232,232,232);
+    padding: 10px;
+}
