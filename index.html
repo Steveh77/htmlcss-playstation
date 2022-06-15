@@ -27,20 +27,20 @@
                     <div class="col d-flex justify-content-between margin-10px">
                         <div class="d-flex align-items-center">
                             <img class="margin-right15px" src="img/play_logo.svg" alt="">
-                            <div class="">
+                            <div class="nav-list">
                                 <ul class="d-flex d-none d-lg-flex list-inline mb-0">
-                                    <li class="margin-0-15px"><a class="black d-flex" href="">Hardware <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
-                                    <li class="margin-0-15px"><a class="black d-flex " href="">Giochi <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
-                                    <li class="margin-0-15px"><a class="black d-flex " href="">Servizi <i class="lightblack d-flex align-items-end margin-left10px  f-size10px bi bi-chevron-down"></i></a></li>
-                                    <li class="margin-0-15px"><a class="black d-flex " href="">Novità <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
-                                    <li class="margin-0-15px"><a class="black d-flex " href="">Fai acquisti <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
-                                    <li class="margin-0-15px"><a class="black d-flex " href="">Supporto <i class="lightblack d-flex align-items-end  margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Hardware <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Giochi <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Servizi <i class="lightblack d-flex align-items-end margin-left10px  f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Novità <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Fai acquisti <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                    <li class="margin-0-15px"><a class="grey d-flex " href="">Supporto <i class="lightblack d-flex align-items-end  margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center ">
+                        <div class="nav-list d-flex align-items-center ">
                             <ul class="d-flex d-none d-lg-flex list-inline align-items-baseline mb-0">
-                                <li class="margin-left30px"><a class="black d-flex" href="">My Playstation <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
+                                <li class="margin-left30px"><a class="grey d-flex " href="">My Playstation <i class="lightblack d-flex align-items-end margin-left10px f-size10px bi bi-chevron-down"></i></a></li>
                                 <li class="margin-left30px"><a class="d-flex a-btn white bg-black" href="">Accedi</a></li>
                                 <li class="margin-left30px"><a class="black" href=""><i class="black bi bi-search"></i></a></li>
                             </ul>
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row margin-top50px gy-4">
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="img-fluid rounded-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        <img class="img-fluid rounded-3" src="img/returnal-listing-thumb-01-ps5.jpg" alt="" id="card-active">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img class="img-fluid rounded-3" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
@@ -112,23 +112,23 @@
                 </div>
 
                 <div class="row margin-top50px">
-                    <div class="col-4 col-md">
+                    <div class="col-4 col-md" id="ps5">
                         <img class="accessories img-fluid" src="img/playstation-5-thumb.png" alt="">
                         <h5 class="text-center d-none d-md-block">Console PS5</h5>
                     </div>
-                    <div class="col-4 col-md">
+                    <div class="col-4 col-md" id="controller">
                         <img class="accessories img-fluid" src="img/joypad-thumb.png" alt="">
                         <h5 class="text-center d-none d-md-block">Controller Wireless Dualsense</h5>
                     </div>
-                    <div class="col-4 col-md">
+                    <div class="col-4 col-md" id="mic">
                         <img class="accessories img-fluid" src="img/headset-thumb.png" alt="">
                         <h5 class="text-center d-none d-md-block">Cuffie wireless con microfono PULSE3™</h5>
                     </div>
-                    <div class="col-4 col-md">
+                    <div class="col-4 col-md" id="remote-controller">
                         <img class="accessories img-fluid" src="img/remote-thumb.png" alt="">
                         <h5 class="text-center d-none d-md-block">Telecomando media</h5>
                     </div>
-                    <div class="col-4 col-md">
+                    <div class="col-4 col-md" id="webcam">
                         <img class="accessories img-fluid" src="img/camera-thumb.jpg" alt="">
                         <h5 class="text-center d-none d-md-block">Telecamera HD</h5>
                     </div>
@@ -250,7 +250,7 @@
                     <div class="col-12 col-md-6  d-flex flex-column justify-content-center paddingleft-30px">
                         <img class="mw-450px padding-top10px" src="img/ps-plus-logo.png" alt="">
                         <h5 class="margin-bottom20px">Migliora la tua esperienza Playstation con l'accesso a multigiocatore online,giochi mensili,sconti escusivi e altro ancora</h5>
-                        <a class="a-btn white bg-lightgrey blue f-size20px w-260 text-center margin-bottom10px" href="">Esplora Playstation Plus</a>
+                        <a class="a-btn white bg-lightgrey blue f-size20px w-260 text-center margin-bottom10px" href="" id="a-ps-plus">Esplora Playstation Plus</a>
                     </div>
                     <div class="d-none d-md-block col-md-6">
                         <img class="img-fluid" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
@@ -286,7 +286,7 @@
                     <div class="col-12 col-md-6 d-flex flex-column justify-content-center white paddingleft-30px">
                         <img class="mw-450px padding-top10px" src="img/ps-now-logo-two-column.png" alt="">
                         <h5 class="margin-bottom50px">Migliora la tua esperienza Playstation con l'accesso a multigiocatore online,giochi mensili,sconti escusivi e altro ancora</h5>
-                        <a class="a-btn white bg-lightgrey blue f-size20px w-260 text-center margin-bottom10px" href="">Esplora Playstation Plus</a>
+                        <a class="a-btn white bg-lightgrey blue f-size20px w-260 text-center margin-bottom10px" href="" id="a-ps-now">Esplora Playstation Plus</a>
                     </div>
                     <div class="d-none d-md-block col-md-6">
                         <img class="img-fluid" src="img/ps-now-april-featured-image-block.png" alt="">
