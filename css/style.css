@@ -37,14 +37,20 @@
 .margin-bottom50px{
     margin-bottom: 50px;
 }
+.margin-bottom10px{
+    margin-bottom: 10px;
+}
 .margin-top50px{
     margin-top: 50px;
 }
-.padding-bottom50px{
-    padding-bottom: 50px;
+.margin-bottom20px{
+    padding-bottom: 20px;
 }
 .padding-top50px{
     padding-top: 50px;
+}
+.padding-top10px{
+    padding-top: 10px;
 }
 .padding-80px{
     padding: 80px
@@ -112,6 +118,9 @@ h2{
 }
 .bg-playstation-plus{
     background-color: rgb(190,188,187);
+}
+.bg-playstation-now{
+    background-color: rgb(22,28,59);
 }
 /* font size */
 .f-size20px{
